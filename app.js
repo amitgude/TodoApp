@@ -12,6 +12,6 @@ app.use(express.static('./public/'));
 todoController(app);
 
 //set the port number
-app.listen(process.env.PORT || '5000');
+app.listen(process.env.PORT || '5001');
 console.log('Application started on port number 3000');
 
